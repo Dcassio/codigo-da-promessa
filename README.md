@@ -15,7 +15,7 @@ Este repositório é um projeto pessoal com objetivo de construir minha carreira
 ---
 
 ## 🛠 **Estrutura do Repositório**
-```plaintext
+
 codigo-da-promessa/
 │
 ├── fundamentos/       # Conceitos, SDLC, STLC, Tipos de Testes
