@@ -24,7 +24,7 @@ codigo-da-promessa/
 ├── api/               # Testes de API com Postman
 ├── automacao/         # Projetos Cypress, Playwright, Robot Framework
 └── README.md          # Este arquivo
-
+```
 ---
 
 ## 📅 Cronograma de Estudos
