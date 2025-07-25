@@ -14,17 +14,15 @@ Este repositório é um projeto pessoal com objetivo de construir minha carreira
 
 ---
 
-## 🛠 Estrutura do Repositório
+## 🛠 **Estrutura do Repositório**
+```plaintext
 codigo-da-promessa/
 │
-├── fundamentos/ # Conceitos básicos e anotações
-├── testes-manuais/ # Planos de teste, casos de teste, bug reports
-├── automacao/ # Projetos com Cypress, Playwright e Robot Framework
-└── README.md # Este arquivo
-
-yaml
-Copiar
-Editar
+├── fundamentos/       # Conceitos, SDLC, STLC, Tipos de Testes
+├── testes-manuais/    # Planos de teste, casos de teste, bug reports
+├── api/               # Testes de API com Postman
+├── automacao/         # Projetos Cypress, Playwright, Robot Framework
+└── README.md          # Este arquivo
 
 ---
 
