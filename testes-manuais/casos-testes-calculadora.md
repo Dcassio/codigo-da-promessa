@@ -33,7 +33,7 @@
 
 **Resultado Esperado**: Exibir erro ("Não é possivel dividir por zero")  
 **Resultado Obtido**: Uma mensagem de texto ("Não é possivel dividir por zero")
-**Evidência-** https://gyazo.com/2cb3f3247f48879a713d1a02af67937c   
+**Evidência-**https://gyazo.com/2cb3f3247f48879a713d1a02af67937c   
 **Status**: Aprovado
 
 **CASO 03**(caso meramente editado no paint, para simular suposto bug)
@@ -53,8 +53,8 @@
 5. Pressionar =
 
 **Resultado Esperado**: 10  
-**Resultado Obtido**: 9.99999  
-
+**Resultado Obtido**: 9.99999
+  
 **Evidência**: https://gyazo.com/c2669a6aa98b0a96ab48f8b2f23152c4
 
 **Status**: Reprovado  
