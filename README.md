@@ -8,9 +8,10 @@ Este repositório é um projeto pessoal com objetivo de construir minha carreira
 
 ## 🎯 Objetivo
 - Consolidar fundamentos de **QA Manual e Automação**
-- Dominar ferramentas modernas como **Cypress, Playwright, Postman e Git**
+- Dominar ferramentas modernas como **Cypress, Playwright, Jira, TestRail, Postman e Git**
 - Criar documentação completa (**Planos de Teste, Casos de Teste, Bug Reports**)
-- Montar projetos práticos e publicá-los neste repositório
+- Praticar a criação de testes reais com cobertura prática e técnica
+- Construir um portfólio de projetos versionados e publicados
 
 ---
 
@@ -18,12 +19,11 @@ Este repositório é um projeto pessoal com objetivo de construir minha carreira
 
 ```plaintext
 codigo-da-promessa/
-│
-├── fundamentos/       # Conceitos, SDLC, STLC, Tipos de Testes
-├── testes-manuais/    # Planos de teste, casos de teste, bug reports
-├── api/               # Testes de API com Postman
-├── automacao/         # Projetos Cypress, Playwright, Robot Framework
-└── README.md          # Este arquivo
+├── conceito-qa/ # Fundamentos, SDLC, STLC, Tipos de Teste
+├── testes-manuais/ # Planos de Teste, Casos de Teste, Bug Reports
+├── automacao/ # Projetos práticos com Cypress, Playwright, etc.
+├── docs/ # Documentações auxiliares e provas de conceito (POCs)
+└── README.md # Apresentação do projeto
 ```
 ---
 
@@ -42,29 +42,25 @@ Foco: **QA Manual + Automação**
 
 ---
 
-## ✅ Progresso do Projeto - Código da Promessa
-Este projeto segue uma trilha prática para consolidar fundamentos e avançar para um perfil competitivo como QA Manual + Automação.
+## 🚀 Tecnologias e Ferramentas
 
-### 📅 Roadmap e Status
-- [x] **Semana 1 - Dia 1:** Fundamentos (QA x QC x Testes, SDLC, STLC, Tipos de Testes)
-- [ ] **Semana 1 - Dia 2:** Ferramentas de Gestão (Trello, Jira) + Kanban QA
-- [ ] **Semana 1 - Dia 3:** Casos de Teste Avançados + Bug Report
-- [ ] **Semana 2:** Testes de API com Postman
-- [ ] **Semana 3:** Automação Front-end com Cypress
-- [ ] **Semana 4:** Automação com Playwright
-- [ ] **Semana 5:** Banco de Dados (SQL) e Integração com QA
-- [ ] **Semana 6:** Pipeline CI/CD e Tendências do Mercado
+- **Linguagens**: JavaScript (Node.js), Markdown
+- **Frameworks de Teste**: Cypress, Playwright, Robot Framework
+- **Testes de API**: Postman
+- **Gerenciamento**: Trello, Jira, TestRail
+- **Versionamento**: Git & GitHub
 
 ---
 
-## ✨ Motivação
-“Cada linha é um passo rumo ao plano que Deus traçou para mim.”
+## ✨ Mantra do Projeto
 
-Este projeto é minha promessa pessoal: **transformar disciplina e aprendizado em qualidade de vida para minha família.**  
-Com fé, força, discernimento e paz, sigo construindo meu futuro como QA.
+> *“Disciplina hoje é a ponte para a liberdade que desejo amanhã.”*  
+> *Este projeto é minha promessa pessoal: transformar esforço, fé e aprendizado em qualidade de vida para minha família.*
 
 ---
 
 ## 📌 Autor
+
 **Douglas Cássio**  
-Estudante de Análise e Desenvolvimento de Sistemas | Futuro QA Automação
+Estudante de Análise e Desenvolvimento de Sistemas  
+Futuro QA de Automação | Em constante evolução
