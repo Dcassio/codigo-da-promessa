@@ -14,7 +14,7 @@
 
 **Resultado Esperado**: 15  
 **Resultado Obtido**: A soma de 10 + 5 foi igual a 15.
-Evidência- https://gyazo.com/6d4aabcea83f6aa599a9397b8d9b99aa  
+**Evidência-** https://gyazo.com/6d4aabcea83f6aa599a9397b8d9b99aa  
 **Status**: Aprovado
 
 **CASO 02**
@@ -33,7 +33,7 @@ Evidência- https://gyazo.com/6d4aabcea83f6aa599a9397b8d9b99aa
 
 **Resultado Esperado**: Exibir erro ("Não é possivel dividir por zero")  
 **Resultado Obtido**: Uma mensagem de texto ("Não é possivel dividir por zero")
-Evidência- https://gyazo.com/2cb3f3247f48879a713d1a02af67937c   
+**Evidência-** https://gyazo.com/2cb3f3247f48879a713d1a02af67937c   
 **Status**: Aprovado
 
 **CASO 03**(caso meramente editado no paint, para simular suposto bug)
@@ -56,5 +56,6 @@ Evidência- https://gyazo.com/2cb3f3247f48879a713d1a02af67937c
 **Resultado Obtido**: 9.99999  
 
 **Evidência**: https://gyazo.com/c2669a6aa98b0a96ab48f8b2f23152c4
+
 **Status**: Reprovado  
 **Responsável**: QA
