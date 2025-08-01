@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Código da Promessa
 *"Disciplina agora, liberdade depois. Cada linha de teste é um passo para a vida que quero para minha família."*
 
