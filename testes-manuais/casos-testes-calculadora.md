@@ -55,6 +55,6 @@ Evidência- https://gyazo.com/2cb3f3247f48879a713d1a02af67937c
 **Resultado Esperado**: 10  
 **Resultado Obtido**: 9.99999  
 
-**Evidência**: https://gyazo.com/c2669a6aa98b0a96ab48f8b2f23152c4 
+**Evidência**: https://gyazo.com/c2669a6aa98b0a96ab48f8b2f23152c4
 **Status**: Reprovado  
 **Responsável**: QA
