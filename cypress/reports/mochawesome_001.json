@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-08-13T02:06:09.247Z",
+    "end": "2025-08-13T02:06:10.813Z",
+    "duration": 1566,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "51eeb648-64b9-433f-9dd2-763f17dd0dec",
+      "title": "",
+      "fullFile": "cypress\\e2e\\calculator.cy.js",
+      "file": "cypress\\e2e\\calculator.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "68eb5c43-6dbb-4877-a727-925bdd73ec7f",
+          "title": "Teste da Calculadora",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Deve somar dois números",
+              "fullTitle": "Teste da Calculadora Deve somar dois números",
+              "timedOut": null,
+              "duration": 1501,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const calc = new _calculatorPage.default();\ncalc.visit();\ncalc.enterFirstNumber(5);\ncalc.enterSecondNumber(3);\ncalc.clickAdd();\ncalc.verifyResult(8);",
+              "err": {},
+              "uuid": "3faecf58-9600-4aa2-9b20-684450691eb5",
+              "parentUUID": "68eb5c43-6dbb-4877-a727-925bdd73ec7f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3faecf58-9600-4aa2-9b20-684450691eb5"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1501,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "json": true,
+        "overwrite": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}

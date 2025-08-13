@@ -1,0 +1,123 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-08-13T02:06:01.165Z",
+    "end": "2025-08-13T02:06:05.436Z",
+    "duration": 4271,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f9de8fac-6ab0-4bcd-b877-7260b2d13be7",
+      "title": "",
+      "fullFile": "cypress\\e2e\\calculadora.cy.js",
+      "file": "cypress\\e2e\\calculadora.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f90ae6e0-c2d4-4392-8908-bfcf9c12db0b",
+          "title": "Calculadora - Testes Básicos",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Soma de 10 + 5 deve ser 15",
+              "fullTitle": "Calculadora - Testes Básicos Soma de 10 + 5 deve ser 15",
+              "timedOut": null,
+              "duration": 2894,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('#number1').type('10');\ncy.get('#number2').type('5');\ncy.get('#calculate').click();\ncy.get('#answer').should('have.text', '15');",
+              "err": {},
+              "uuid": "dadcd592-719c-4762-9bd2-e50f1508ca12",
+              "parentUUID": "f90ae6e0-c2d4-4392-8908-bfcf9c12db0b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Divisão por zero deve mostrar erro ou resultado igual a ele msm",
+              "fullTitle": "Calculadora - Testes Básicos Divisão por zero deve mostrar erro ou resultado igual a ele msm",
+              "timedOut": null,
+              "duration": 1274,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('#number1').type('10');\ncy.get('#number2').type('0');\ncy.get('#calculate').click();\ncy.get('#answer').should('have.text', '10');",
+              "err": {},
+              "uuid": "95ea4732-4b88-413e-8710-4cc2c60574a7",
+              "parentUUID": "f90ae6e0-c2d4-4392-8908-bfcf9c12db0b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "dadcd592-719c-4762-9bd2-e50f1508ca12",
+            "95ea4732-4b88-413e-8710-4cc2c60574a7"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4168,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "json": true,
+        "overwrite": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}
